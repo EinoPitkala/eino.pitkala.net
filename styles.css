@@ -1,0 +1,104 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background: #002233;
+}
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 300px;
+    padding: 30px 20vw;
+}
+section:nth-child(1) {
+    align-items: center;
+}
+.blue {
+    background-color: #0066FF;
+}
+.red {
+    background-color: #f44336;
+}
+.green {
+    background-color: #4caf50;
+}
+.yellow {
+    background-color: #ffeb3b;
+}
+.orange {
+    background-color: #ff9800;
+}
+.purple {
+    background-color: #9c27b0;
+}
+.custom-shape-divider-top-1658525079 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    fill: #0066ff;
+}
+.nimi {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono'
+}
+.spacer {
+    aspect-ratio: 900/150;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer2 {
+    background-image: url('./ykkone.svg');
+}
+.layer3 {
+    background-image: url('./kakkone.svg');
+}
+footer {
+    margin: 30px 20vw;
+    text-align: center;
+    min-height: 300px;
+}
+footer a {
+    color: white;
+    text-decoration: blue dotted underline;
+    transition: 0.3s ease-in-out;
+}
+footer a:hover {
+    color: #0066ff;
+}
+footer li {
+    list-style-type: none;
+}
+footer ul {
+    display: inline;
+    align-items: center;
+}
+footer h1 {
+    font-family: 'Cascadia Code', monospace;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+.main p {
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+}
+@media only screen and (max-device-width: 480px){
+    .nimi {
+        font-size: 4rem;
+        text-align: center;
+    }
+    section {
+        padding: 30px 5vw;
+    }
+}
