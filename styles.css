@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
 body {
     margin: 0;
@@ -12,6 +13,7 @@ section {
     align-items: left;
     min-height: 300px;
     padding: 30px 20vw;
+    font-family: "Roboto" sans-serif;
 }
 section:nth-child(1) {
     align-items: center;
