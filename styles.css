@@ -97,7 +97,7 @@ a {
 }
 @media only screen and (max-device-width: 480px){
     .nimi {
-        font-size: 4rem;
+        font-size: 2rem;
         text-align: center;
     }
     section {
