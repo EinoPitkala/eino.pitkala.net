@@ -10,6 +10,15 @@ body {
     font-family: "Kanit", monospace;
     z-index: 1;
     animation: animate 30s ease infinite;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background: #153545;
+}
+::-webkit-scrollbar-thumb {
+    background: #002233;
+    width: 10px;
 }
 section {
     position: relative;
