@@ -64,7 +64,10 @@ a {
 }
 @media only screen and (max-device-width: 480px){
     .nimi {
-        font-size: 2rem;
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    .main p {
         text-align: center;
     }
     section {
